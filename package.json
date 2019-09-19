@@ -3,8 +3,11 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@material-ui/core": "^4.4.2",
+        "@material-ui/icons": "^4.4.1",
         "eslint": "^6.3.0",
         "express-generator": "^4.16.1",
+        "material-ui": "^0.20.2",
         "prettier": "^1.18.2",
         "react": "^16.9.0",
         "react-big-calendar": "^0.22.1",

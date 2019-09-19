@@ -15,8 +15,8 @@ const Calendar = () => {
           height:100%;
           border:0px;
           background-color:transparent;" 
-        frameborder="0" 
-        allowtransparency="true">
+          frameborder="0" 
+          allowtransparency="true">
       </Iframe>
       <Script>
         {`window.addEventListener && window.addEventListener("message", function(event){
