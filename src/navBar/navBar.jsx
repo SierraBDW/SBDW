@@ -19,8 +19,9 @@ import AppBar from "material-ui/AppBar";
 import FontIcon from "material-ui/FontIcon";
 import Drawer from "material-ui/Drawer";
 import MenuItem from "material-ui/MenuItem";
-import Icon from '@material-ui/core/Icon';
+// import Icon from '@material-ui/core/Icon';
 import MenuIcon from '@material-ui/icons/Menu';
+import "../navBar/navBar.css";
 
 const styles = {
   navBar: { top: AppBar.height }
@@ -43,7 +44,7 @@ class navBar extends Component {
             title="Some title"
             iconElementLeft={
               <FontIcon onClick={this.handleToggle} className="material-icons">
-                <MenuIcon/>
+                <MenuIcon className="hamburger"/>
               </FontIcon>
             }
           />
@@ -52,8 +53,8 @@ class navBar extends Component {
             width={200}
             containerStyle={styles.navBar}
           >
-            <MenuItem>Menu Item</MenuItem>
-            <MenuItem>Menu Item 2</MenuItem>
+            <MenuItem>Home</MenuItem>
+            <MenuItem>Book an Appointment</MenuItem>
           </Drawer>
         </div>
       </MuiThemeProvider>
