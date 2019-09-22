@@ -13,13 +13,11 @@
 // export default NavBar;
 
 import React, { Component } from "react";
-// import { render } from "react-dom";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import AppBar from "material-ui/AppBar";
 import FontIcon from "material-ui/FontIcon";
 import Drawer from "material-ui/Drawer";
 import MenuItem from "material-ui/MenuItem";
-// import Icon from '@material-ui/core/Icon';
 import MenuIcon from '@material-ui/icons/Menu';
 import "../navBar/navBar.css";
 

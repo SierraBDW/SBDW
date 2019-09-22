@@ -1,33 +1,16 @@
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import "./bookingBtn";
+import { Link } from "react-router-dom";
+import "./bookingBtn.css";
 
-
-const useStyles = makeStyles(theme => ({
-  button: {
-    margin: theme.spacing(1),
-  },
-  input: {
-    display: 'none',
-  },
-}));
-
-export default function ContainedButtons() {
-  const classes = useStyles();
-
+export default function BookingBtn() {
   return (
     <div>
-      <Button variant="contained" color="secondary" className={classes.button}>
+    <Link to="../../calendar/calendar.jsx" className="bookingLink">
+      <Button variant="contained" color="secondary">
         Book an Appointment
       </Button>
-      <input
-        accept="image/*"
-        className={classes.input}
-        id="contained-button-file"
-        multiple
-        type="file"
-      />
+    </Link>
     </div>
   );
 };

@@ -1,0 +1,30 @@
+.vidContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 0;
+}
+
+.button {
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    border-radius: 8px;
+    margin: 0 0 25% 43%;
+    padding: 1.25% 0 0 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ff4444;
+    color: #fff;
+    z-index: 1;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
