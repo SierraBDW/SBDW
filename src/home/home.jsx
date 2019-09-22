@@ -1,4 +1,5 @@
 import React from "react";
+import BookingBtn from "../home/bookingBtn/bookingBtn";
 import "./home.css";
 
 // let imgUrl = "../../public/background-vid.mp4";
@@ -13,10 +14,10 @@ import "./home.css";
 const Home = () => {
     return (
         <div>
+            <BookingBtn />
             <video autoPlay loop muted>
                 <source src={`${process.env.PUBLIC_URL}/backgroundVid.mp4`}/>
             </video>
-            <h1>This is the Home Page</h1>
         </div>
     );
 }
