@@ -1,9 +1,9 @@
 import React from "react";
 import "./contentBox.css";
 
-const ContentBox = () => {
+const ContentBox = ({id}) => {
     return (
-        <div className="contentBox">
+        <div className="contentBox" id={id} >
         </div>
     );
 }

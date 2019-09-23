@@ -39,7 +39,7 @@ class navBar extends Component {
         <div>
           <AppBar
             zDepth={10}
-            title="Some title"
+            title="Boulder Dogs"
             iconElementLeft={
               <FontIcon onClick={this.handleToggle} className="material-icons">
                 <MenuIcon className="hamburger"/>
