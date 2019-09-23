@@ -53,6 +53,7 @@ class navBar extends Component {
           >
             <MenuItem>Home</MenuItem>
             <MenuItem>Book an Appointment</MenuItem>
+            <MenuItem>Learn More</MenuItem>
           </Drawer>
         </div>
       </MuiThemeProvider>

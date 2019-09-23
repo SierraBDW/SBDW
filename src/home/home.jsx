@@ -1,12 +1,13 @@
 import React from "react";
 import "./home.css";
 import BgVid from "./bgVid/bgVid";
-import BookingBtn from "./bookingBtn/bookingBtn";
-
+import LearnMore from "./learnMore/learnMore";
+ 
 const Home = () => {
     return (
         <div>
             <BgVid/>
+            {/* <LearnMore/> */}
         </div>
     );
 }
