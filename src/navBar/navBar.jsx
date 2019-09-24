@@ -37,7 +37,7 @@ class navBar extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <AppBar
+          <AppBar className="appBar"
             zDepth={10}
             title="Boulder Dogs"
             iconElementLeft={

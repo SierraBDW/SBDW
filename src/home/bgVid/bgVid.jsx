@@ -6,10 +6,10 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const BgVid = () => {
   return (
-    <div>
+    <div className="container">
       <div className="chevron">
         <Link smooth to="#learnMore">
-          <ExpandMoreIcon className="expand" style={{ fontSize: "200px" }} />
+          <ExpandMoreIcon style={{ fontSize: "200px", marginLeft: "10%" }} />
         </Link>
       </div>
       <video className="video" autoPlay>
