@@ -20,6 +20,7 @@ const LearnMore = () => {
           <img
             className="contentImg"
             src={require("../learnMore/images/dogs1.jpg")}
+            alt="dog1"
           />
         </div>
       </ContentBox>
@@ -28,6 +29,7 @@ const LearnMore = () => {
           <img
             className="contentImg"
             src={require("../learnMore/images/dogs2.jpg")}
+            alt="dog2"
           />
           <h1 className="title">Title Two</h1>
           <p>
@@ -56,6 +58,7 @@ const LearnMore = () => {
           <img
             className="contentImg"
             src={require("../learnMore/images/dogs3.jpg")}
+            alt="dog3"
           />
         </div>
       </ContentBox>

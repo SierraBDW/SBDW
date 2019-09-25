@@ -1,17 +1,3 @@
-// import React from "react";
-// import { NavLink } from "react-router-dom";
-
-// const NavBar = () => {
-//   return (
-//    <header>
-//         <NavLink to="/">Home</NavLink>
-//         <NavLink to="/calendar">Calendar</NavLink>
-//     </header>
-//   )
-// };
-
-// export default NavBar;
-
 import React, { Component } from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import AppBar from "material-ui/AppBar";
@@ -37,7 +23,7 @@ class navBar extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <AppBar className="appBar"
+          <AppBar className="appBar" style={{ fontFamily: "Mansalva" }}
             zDepth={10}
             title="Boulder Dogs"
             iconElementLeft={
