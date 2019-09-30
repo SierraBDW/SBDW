@@ -58,3 +58,7 @@
 .MuiSvgIcon-root-1 {
     color: white;
 }
+
+.MuiSvgIcon-root-1:link {
+    color: white;
+}
