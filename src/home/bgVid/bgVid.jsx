@@ -9,7 +9,7 @@ const BgVid = () => {
     <div className="container">
       <div className="chevron">
         <Link smooth to="#learnMore">
-          <ExpandMoreIcon style={{ fontSize: "200px", marginLeft: "10%" }} />
+          <ExpandMoreIcon style={{ fontSize: "100px", marginLeft: "10%"}} />
         </Link>
       </div>
       <video className="video" autoPlay>
