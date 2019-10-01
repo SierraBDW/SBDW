@@ -16,7 +16,7 @@ const BgVid = () => {
         <source src={`${process.env.PUBLIC_URL}/backgroundVid.mp4`} />
       </video>
       <div className="button">
-        <a  href="../../calendar/calendar.jsx">
+        <a  href="../../calendar/calendar">
           Book an Appointment
         </a>
       </div>

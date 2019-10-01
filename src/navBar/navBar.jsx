@@ -23,7 +23,7 @@ class navBar extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <AppBar className="appBar" style={{ fontFamily: "Mansalva" }}
+          <AppBar className="appBar" style={{ fontSize: "76px", fontFamily: "Mansalva" }}
             zDepth={10}
             title="Boulder Dogs"
             iconElementLeft={
