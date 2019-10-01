@@ -1,5 +1,5 @@
 import React from "react";
-import "./bgVid.css";
+import "./bgVid.scss";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import LearnMore from "../learnMore/learnMore";
 import { HashLink as Link } from "react-router-hash-link";
