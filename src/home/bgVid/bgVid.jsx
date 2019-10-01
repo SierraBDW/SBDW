@@ -15,11 +15,11 @@ const BgVid = () => {
       <video className="video" autoPlay muted loop>
         <source src={`${process.env.PUBLIC_URL}/backgroundVid.mp4`} />
       </video>
-      <div className="button">
-        <a  href="../../calendar/calendar">
-          Book an Appointment
-        </a>
-      </div>
+      <Link to="/calendar">
+        <div className="button">       
+            Book an Appointment
+        </div>
+      </Link>
       <div id="learnMore">
         <LearnMore />
       </div>
