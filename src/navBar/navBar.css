@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
 .appBar {
     text-align: center;
+    height: 80px;
+}
+
+.app-bar-title {
+    font-size: 50px;
 }
 
 .hamburger {

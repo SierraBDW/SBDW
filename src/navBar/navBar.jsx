@@ -23,9 +23,9 @@ class navBar extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <AppBar className="appBar" style={{ fontSize: "76px", fontFamily: "Mansalva" }}
+          <AppBar className="appBar" style={{ fontFamily: "Mansalva", backgroundColor: "lightBlue" }}
             zDepth={10}
-            title="Boulder Dogs"
+            title={<div className="app-bar-title">Boulder Dogs</div>}
             iconElementLeft={
               <FontIcon onClick={this.handleToggle} className="material-icons">
                 <MenuIcon className="hamburger"/>
