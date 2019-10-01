@@ -3,7 +3,7 @@ $break-small: 500px;
 $break-large: 800px;
 .container {
     max-width: 100%;
-    margin: auto;
+    // margin: auto;
 }
 
 .vidContainer {
@@ -14,10 +14,13 @@ $break-large: 800px;
     bottom: 0;
     background: #000;
     z-index: 0;
+    @media screen and (max-width: $break-small) {
+        width: 100%;
+    }
 }
 
 .video {
-    max-width: 100%;
+    width: 100%;
     margin: auto;
 }
 
