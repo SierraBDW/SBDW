@@ -1,5 +1,5 @@
 import React from "react";
-import "./contentBox.css";
+import "./contentBox.scss";
 
 const ContentBox = (props) => {
     return (

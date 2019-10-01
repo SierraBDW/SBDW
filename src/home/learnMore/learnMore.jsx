@@ -1,5 +1,5 @@
 import React from "react";
-import "./learnMore.css";
+import "./learnMore.scss";
 import ContentBox from "./contentBox/contentBox";
 
 const LearnMore = () => {
