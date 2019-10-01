@@ -12,7 +12,7 @@ const BgVid = () => {
           <ExpandMoreIcon style={{ fontSize: "100px", marginLeft: "10%"}} />
         </Link>
       </div>
-      <video className="video" autoPlay muted loop>
+      <video className="video" autoPlay muted loop style={{  }}>
         <source src={`${process.env.PUBLIC_URL}/backgroundVid.mp4`} />
       </video>
       <Link to="/calendar">

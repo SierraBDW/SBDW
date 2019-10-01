@@ -5,6 +5,7 @@ import FontIcon from "material-ui/FontIcon";
 import Drawer from "material-ui/Drawer";
 import MenuItem from "material-ui/MenuItem";
 import MenuIcon from '@material-ui/icons/Menu';
+import { Link } from "react-router-dom";
 import "../navBar/navBar.css";
 
 const styles = {
@@ -37,9 +38,15 @@ class navBar extends Component {
             width={200}
             containerStyle={styles.navBar}
           >
-            <MenuItem>Home</MenuItem>
-            <MenuItem>Book an Appointment</MenuItem>
-            <MenuItem>Learn More</MenuItem>
+            <Link to="/">
+              <MenuItem>Home</MenuItem>
+            </Link>
+            <Link to="/calendar">
+              <MenuItem>Book an Appointment</MenuItem>
+            </Link>
+            <Link to="/about">
+              <MenuItem>About</MenuItem>
+            </Link>
           </Drawer>
         </div>
       </MuiThemeProvider>

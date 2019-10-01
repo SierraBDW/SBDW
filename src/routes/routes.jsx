@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "../navBar/navBar";
 import Home from "../home/home";
 import Calendar from "../calendar/calendar";
+import About from "../about/about";
 
 class Routes extends Component {
     constructor() {
@@ -17,6 +18,7 @@ class Routes extends Component {
                     <NavBar />
                     <Route exact path= "/" component={ Home } />
                     <Route path="/calendar" component={ Calendar } />
+                    <Route path="/about" component={ About } />
                 </Router>
             </div>
         )
