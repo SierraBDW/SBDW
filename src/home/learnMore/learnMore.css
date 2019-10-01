@@ -3,14 +3,14 @@
     width: auto;
     height: auto;
     padding: 2% 2% 0 0;
-    background-color: black;
+    background-color: rgb(231, 231, 231);
     font-size: 24px;
     text-align: center;
 }
 
 #cb1 {
     text-align: left;
-    background-color: rgb(61, 54, 22);
+    background-color: rgb(168, 158, 111);
     height: auto;
     border-radius: 8px;
 }
@@ -19,15 +19,7 @@
     margin: 0 0 0 30%;
     padding: 0 2% 0 0;
     text-align: left;
-    background-color: rgb(95, 78, 78);
-    height: auto;
-    border-radius: 8px;
-}
-
-#cb3 {
-    margin: 0 0 0 0;
-    background-color: rgb(65, 23, 23);
-    text-align: left;
+    background-color: rgb(158, 141, 141);
     height: auto;
     border-radius: 8px;
 }

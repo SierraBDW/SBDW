@@ -20,26 +20,27 @@
 }
 
 .button {
+    display: flex;
+    align-content: center;
     text-align: center;
     position: absolute;
-    width: 15%;
+    width: 10%;
     height: auto;
     border-radius: 8px;
-    margin: 0 0 0 43%;
-    padding: .5% 0 .5% 0;
+    /* margin: 0 0 0 43%; */
+    padding: 1% 1% 1% 1%;
     left: 0;
     right: 0;
     bottom: 40%;
-    background: #6e2020;
+    background: #c26666;
     color: #fff;
     z-index: 1;
-    font-size: 48px;
+    font-size: 30px;
 }
 
 .button a {
     text-decoration: none;
     color: white;
-    font-size: 40px;
 }
 
 .chevron {
