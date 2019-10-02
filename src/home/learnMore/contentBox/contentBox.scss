@@ -1,4 +1,11 @@
+$break-small: 500px;
+$break-large: 800px;
 .contentBox {
-    width: 70%;
     height: 500px;
+    width: 100%;
+    @media screen and (max-width: $break-large) {
+        max-width: 800px;
+        ;
+        margin: 0%;
+    }
 }
