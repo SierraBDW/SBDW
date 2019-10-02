@@ -41,12 +41,6 @@ $break-large: 800px;
     border-radius: 8px;
 }
 
-.contentImg {
-    @media screen and (max-width: $break-large) {
-        height: 200px;
-    }
-}
-
 .title {
     padding: 0 2% 0 2%;
     text-align: left;
