@@ -15,6 +15,9 @@ const BgVid = () => {
       <video className="video" autoPlay muted loop style={{  }}>
         <source src={`${process.env.PUBLIC_URL}/backgroundVid.mp4`} />
       </video>
+      <div className="heading">
+        <h1 style={{ opacity: "1" }}>Locally Sourced Pet Care</h1>
+      </div>
       <Link to="/calendar">
         <div className="button">       
             Book an Appointment

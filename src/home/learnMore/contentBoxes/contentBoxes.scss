@@ -3,16 +3,16 @@ $break-small: 500px;
 $break-large: 800px;
 .contentBoxes {
     height: 425px;
-    width: 98%;
+    width: 88%;
     font-size: 24px;
     display: flex;
     flex-direction: row;
-    margin: 1%;
+    margin: 1% 0 0 0;
     padding: 0 0 0 12%;
 }
 
 .contentBoxTop {
-    background-color: #95b6a0;
+    background-color: rgb(148, 180, 159);
     img {
         max-height: 400px;
         max-width: 477px;
@@ -21,7 +21,8 @@ $break-large: 800px;
 }
 
 .contentBoxBottom {
-    background-color: #a6c5df;
+    background-color: rgb(166, 197, 223);
+    margin: 1% 0 2% 0;
     img {
         max-height: 400px;
         max-width: 477px;

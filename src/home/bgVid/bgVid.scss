@@ -3,7 +3,6 @@ $break-small: 500px;
 $break-large: 800px;
 .container {
     max-width: 100%;
-    // margin: auto;
 }
 
 .vidContainer {
@@ -12,16 +11,34 @@ $break-large: 800px;
     left: 0;
     right: 0;
     bottom: 0;
-    background: #000;
+    background: rgb(12, 65, 32);
     z-index: 0;
     @media screen and (max-width: $break-small) {
-        width: 100%;
+        width: 120%;
     }
 }
 
 .video {
     width: 100%;
     margin: auto;
+}
+
+.heading {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    font-family: "Mansalva";
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0 0 0 0;
+    right: 0;
+    bottom: 50%;
+    z-index: 1;
+    h1 {
+        opacity: 1;
+    }
 }
 
 .button {
@@ -35,8 +52,8 @@ $break-large: 800px;
     padding: 1% 1% 1% 1%;
     left: 0;
     right: 0;
-    bottom: 40%;
-    background: #c26666;
+    bottom: 35%;
+    background: rgb(166, 197, 223);
     color: #fff;
     z-index: 1;
     font-size: 30px;
