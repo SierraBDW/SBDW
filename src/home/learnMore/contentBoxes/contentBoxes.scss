@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
+$break-small: 500px;
+$break-large: 800px;
+.contentBoxes {
+    height: 425px;
+    width: 98%;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    padding: 0 0 0 12%;
+}
+
+.contentBoxTop {
+    background-color: #95b6a0;
+    img {
+        max-height: 400px;
+        max-width: 477px;
+        margin: 1%;
+    }
+}
+
+.contentBoxBottom {
+    background-color: #a6c5df;
+    img {
+        max-height: 400px;
+        max-width: 477px;
+        margin: 1%;
+    }
+}
+
+.titleContent {
+    color: white;
+    width: 45%;
+    margin: 1%;
+    h1 {
+        font-family: "Mansalva";
+    }
+}
