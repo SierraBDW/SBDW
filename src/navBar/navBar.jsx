@@ -26,7 +26,8 @@ class navBar extends Component {
         <div>
           <AppBar className="appBar" style={{ fontFamily: "Mansalva", backgroundColor: "#a6c5df" }}
             zDepth={10}
-            title={<div className="app-bar-title">Boulder Dogs Logo</div>}
+            title={
+              <div className="app-bar-title">Boulder Dogs Logo</div>}
             iconElementLeft={
               <FontIcon onClick={this.handleToggle} className="material-icons">
                 <MenuIcon className="hamburger"/>
