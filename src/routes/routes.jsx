@@ -5,6 +5,7 @@ import NavBar from "../navBar/navBar";
 import Home from "../home/home";
 import Calendar from "../calendar/calendar";
 import About from "../about/about";
+import Admin from "../admin/admin";
 
 class Routes extends Component {
     constructor() {
@@ -19,6 +20,7 @@ class Routes extends Component {
                     <Route exact path= "/" component={ Home } />
                     <Route path="/calendar" component={ Calendar } />
                     <Route path="/about" component={ About } />
+                    <Route path="/admin" component={ Admin } />
                 </Router>
             </div>
         )

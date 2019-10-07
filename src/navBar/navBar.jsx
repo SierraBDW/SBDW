@@ -4,7 +4,7 @@ import AppBar from "material-ui/AppBar";
 import FontIcon from "material-ui/FontIcon";
 import Drawer from "material-ui/Drawer";
 import MenuItem from "material-ui/MenuItem";
-import MenuIcon from '@material-ui/icons/Menu';
+import MenuIcon from "@material-ui/icons/Menu";
 import { Link } from "react-router-dom";
 import "../navBar/navBar.css";
 
@@ -24,13 +24,17 @@ class navBar extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <AppBar className="appBar" style={{ fontFamily: "Mansalva", backgroundColor: "#a6c5df" }}
+          <AppBar
+            className="appBar"
+            style={{ fontFamily: "Mansalva", backgroundColor: "#a6c5df" }}
             zDepth={10}
-            title={
-              <div className="app-bar-title">Boulder Dogs Logo</div>}
+            title={<div className="app-bar-title">Boulder Dogs Logo</div>}
             iconElementLeft={
               <FontIcon onClick={this.handleToggle} className="material-icons">
-                <MenuIcon className="hamburger"/>
+                <MenuIcon
+                  style={{ textDecoration: "none" }}
+                  className="hamburger"
+                />
               </FontIcon>
             }
           />
@@ -43,10 +47,22 @@ class navBar extends Component {
               <MenuItem>Home</MenuItem>
             </Link>
             <Link to="/calendar">
-              <MenuItem>Book an Appointment</MenuItem>
+              <MenuItem>About Us</MenuItem>
             </Link>
             <Link to="/about">
-              <MenuItem>About</MenuItem>
+              <MenuItem>FAQ</MenuItem>
+            </Link>
+            <Link>
+              <MenuItem>Book An Appointment</MenuItem>
+            </Link>
+            <Link>
+              <MenuItem>Services</MenuItem>
+            </Link>
+            <Link>
+              <MenuItem>Pricing</MenuItem>
+            </Link>
+            <Link>
+              <MenuItem>Contact Us</MenuItem>
             </Link>
           </Drawer>
         </div>
