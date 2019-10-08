@@ -1,3 +1,6 @@
-.new-employee-form {
-    border: solid 4px black;
+.forms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10% 0 0 0;
 }

@@ -64,6 +64,9 @@ class navBar extends Component {
             <Link>
               <MenuItem>Contact Us</MenuItem>
             </Link>
+            <Link to="/admin">
+              <MenuItem>Admin</MenuItem>
+            </Link>
           </Drawer>
         </div>
       </MuiThemeProvider>

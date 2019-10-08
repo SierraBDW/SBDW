@@ -27,7 +27,8 @@
         "react-router-hash-link": "^1.2.2",
         "react-scripts": "^3.1.1",
         "react-transition-group": "^1",
-        "react-z-index": "^3.0.0"
+        "react-z-index": "^3.0.0",
+        "shards-react": "^1.0.3"
     },
     "scripts": {
         "start": "react-scripts start",
