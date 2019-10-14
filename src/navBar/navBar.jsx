@@ -46,22 +46,22 @@ class navBar extends Component {
             <Link to="/">
               <MenuItem>Home</MenuItem>
             </Link>
-            <Link to="/calendar">
+            <Link to="/about">
               <MenuItem>About Us</MenuItem>
             </Link>
-            <Link to="/about">
+            <Link to="/faq">
               <MenuItem>FAQ</MenuItem>
             </Link>
-            <Link>
+            <Link to="/calendar">
               <MenuItem>Book An Appointment</MenuItem>
             </Link>
-            <Link>
+            <Link to="/services">
               <MenuItem>Services</MenuItem>
             </Link>
-            <Link>
+            <Link to="/pricing">
               <MenuItem>Pricing</MenuItem>
             </Link>
-            <Link>
+            <Link to="contact">
               <MenuItem>Contact Us</MenuItem>
             </Link>
             <Link to="/admin">
