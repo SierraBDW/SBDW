@@ -43,6 +43,7 @@ const Admin = () => {
             <Input id="my-input" aria-describedby="my-helper-text" />
           </FormControl>
         </div>
+        <button>Submit</button>
       </div>
 
       <div className="new-employee-form">
@@ -79,6 +80,7 @@ const Admin = () => {
             <Input id="my-input" aria-describedby="my-helper-text" />
           </FormControl>
         </div>
+        <button>Submit</button>
       </div>
     </div>
   );
