@@ -1,13 +1,8 @@
 const express = require("express"); // import the express server
 const cors = require("cors");
 const server = express(); // creates the server
+var clientRouter = require("./routes/client");
 
-
-
-// watch for connections on port 5000
-server.listen(5000, () =>
-    console.log("Server running on http://localhost:5000")
-);
 
 server.use( (req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
@@ -23,3 +18,11 @@ server.get('/', (req, res) => {
 server.post("/clientValues", (req, res) => {
     res.send("ok")
 });
+
+
+server.use("/client", clientRouter);
+
+// watch for connections on port 5000
+server.listen(5000, () =>
+    console.log("Server running on http://localhost:5000")
+);

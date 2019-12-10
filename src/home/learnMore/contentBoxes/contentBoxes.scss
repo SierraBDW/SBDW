@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
 $break-small: 500px;
 $break-large: 800px;
+.learnMore {
+    @media screen and (max-width: $break-small) {
+        max-width: 500px;
+    }
+}
+
 .contentBoxes {
     height: 425px;
     width: 88%;
@@ -9,6 +15,9 @@ $break-large: 800px;
     flex-direction: row;
     margin: 1% 0 0 0;
     padding: 0 0 0 12%;
+    @media screen and (max-width: $break-small) {
+        max-width: 100%;
+    }
 }
 
 .contentBoxTop {
@@ -17,6 +26,26 @@ $break-large: 800px;
         max-height: 400px;
         max-width: 477px;
         margin: 1%;
+    }
+    @media screen and (max-width: $break-small) {
+        max-width: 100%;
+        // display: flex;
+        // flex-direction: column;
+    }
+    img {
+        @media screen and (max-width: $break-small) {
+            max-width: 50%;
+            max-height: 50%;
+            margin: 5% 0 0 0;
+        }
+    }
+    .titleContent {
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
     }
 }
 
@@ -27,6 +56,11 @@ $break-large: 800px;
         max-height: 400px;
         max-width: 477px;
         margin: 1%;
+    }
+    @media screen and (max-width: $break-small) {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
 

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
+$break-small: 500px;
+$break-large: 800px;
+.appBar {
+    text-align: center;
+    height: 80px;
+    @media screen and (max-width: $break-small) {
+        height: 30px;
+        padding: 0 0 12% 0;
+    }
+}
+
+.app-bar-title {
+    @media screen and (max-width: $break-small) {
+        font-size: 16px;
+    }
+}
+
+.left-nav {
+    font-size: 50px;
+}
+
+.hamburger {
+    color: white;
+}

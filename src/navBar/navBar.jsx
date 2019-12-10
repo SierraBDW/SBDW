@@ -6,7 +6,7 @@ import Drawer from "material-ui/Drawer";
 import MenuItem from "material-ui/MenuItem";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Link } from "react-router-dom";
-import "../navBar/navBar.css";
+import "../navBar/navBar.scss";
 
 const styles = {
   navBar: { top: AppBar.height }
